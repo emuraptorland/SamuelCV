@@ -1,0 +1,348 @@
+.container-fluid {
+    padding: 0 7%;
+}
+/* COLOUR THEMES */
+.colorblock-dark {
+    background-color: #1b262c;
+    color:#bbe1fa;
+    padding-top: 2rem; 
+}
+
+.colorblock-medium {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+    padding-top: 2rem; 
+    }
+
+.colorblock-medium-light {
+    background-color: #3282b8;
+    color:#bbe1fa;
+    padding-top: 2rem; 
+}
+    
+.colorblock-light {
+    background-color: #bbe1fa;
+    color: #1b262c;
+    }
+
+.half-block {
+    background: linear-gradient(#1b262c 50%, #bbe1fa 50%);
+}
+
+.half-block-most {
+    background: linear-gradient(#1b262c 80%, #bbe1fa 40%);
+}
+
+.colorblock-accent {
+    background-color: #903749;
+}
+
+.accented-title {
+    font-weight: 700;
+    color: #903749;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #903749;
+}
+
+h3 {
+    color: #903749;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.hr-light {
+    background-color: #bbe1fa;
+    margin-bottom: 1.5rem;
+}
+
+.hr-dark {
+    background-color: #0f4c75;
+    margin-bottom: 3rem;
+}
+
+.quote-font-size {
+    font-size: 1.3rem;
+}
+
+.quote-source-text {
+    color: #bbe1fa;
+    font-size: 1.3rem;
+}
+
+.quote-source-text-dark {
+    color: #1b262c;
+    font-size: 1.3rem;
+}
+
+.section-heading {
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.section-heading-light {
+    color:#bbe1fa;
+    padding-top: 2rem; 
+}
+
+.section-padding {
+    padding: 2rem 15rem;
+ }
+
+ .section-padding-except-bottom {
+     padding-bottom: 0;
+ }
+
+ li, p {
+    font-size: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+ }
+
+ .text-muted {
+     font-size: 1rem;
+ }
+
+/* TITLE SECTION */
+
+
+/* override browser default */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.hero-background {
+    background: url('../images/Hero-image-suitedup.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.parallax {
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#dark-gradient-overlay {
+    background-image: linear-gradient(rgba(144, 55, 73, 0.6), rgba(27, 38, 44, 0.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title-section {
+    text-align: center;
+    height: 100%;
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+}
+
+#title-text {
+    color: #bbe1fa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.text-emphasis {
+    display: inline-block;
+    border-bottom: 7px solid #903749;
+    padding-bottom: 0.5rem;
+}
+
+#story-button {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color:#bbe1fa;
+    border-color: #bbe1fa;
+    border-width: 2px;
+}
+
+/* Basic */
+@-ms-viewport {
+    width: device-width;
+}
+
+/* ABOUT ME Section */
+.about-me-text {
+    padding-bottom: 2rem;
+}
+
+#about-me-header {
+    padding-top: 1rem;
+}
+
+#profile-photo-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#profile-photo {
+    width: 15%;
+    border-radius: 100%;
+}
+
+
+/* EXPERIENCE - employment history and edication Section */
+
+#career-section {
+    margin-bottom: 2rem;
+}
+
+#work-logo {
+    height: 3rem;
+}
+
+/* SKILLS and CERTS Section */
+
+.list-item-padding {
+   padding: 0.5rem 0;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+}
+
+.padded-column {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.certificate-box {
+    margin-bottom: 3rem;
+}
+
+.language-box {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#skillset-column {
+    padding-left: 3rem;
+}
+
+#skillset-column p {
+    margin: 1rem 0 0.5rem;
+}
+
+.skill-bars {
+  padding-left: 0;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  background-color: #bbe1fa;
+  height: 1rem;
+}
+
+.skills-bar-outline {
+    width: 100$;
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    background-color: none;
+    height: 1rem;
+  }
+
+  .dot-has-skill {
+    height: 1rem;
+    width: 1rem;
+    background-color: #bbe1fa;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-empty {
+    height: 1rem;
+    width: 1rem;
+    background-color: none;
+    border: 1px solid #bbe1fa;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.crit-thinking {width: 75%; } /* Green */
+.strategy {width: 100%; } /* Blue */
+.creativity {width: 100%;} /* Red */
+.communication {width: 100%;} /* Dark Grey */
+.confidence {width: 90%;} /* Dark Grey */
+.discipline {width: 80%;} /* Dark Grey */
+
+
+/* INTERESTS Section */
+
+#interests-hobbies {
+    text-align: center;
+}
+
+.card-deck {
+    margin: 2em auto 3.5em;
+}
+
+.card-font {
+    color: #0f4c75;
+}
+
+.hobby-icons {
+    height: 4rem;
+    color: #3282b8;
+}
+
+
+/* TESTIMONIALS Section */
+#testimonials {
+    text-align: center;
+}
+
+.carousel-item {
+    font-size: 1.2rem;
+    padding: 0 20% 5%;
+}
+
+.testimonial-text {
+    text-align: left;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Footer Section */
+#footer {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color:#1b262c;
+  }
+  
+.tiny-font {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
